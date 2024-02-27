@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+}
+
+h1{
+    font-size: 60px;
+    
+}
+span{
+    color: brown;
+    font-weight: 700;
+}
+.namety{
+    position: relative;
+}
+.namety::after {
+    content: "";
+    position: absolute;
+    top: 13%;
+    right: -4px;
+    height: 50px;
+    width: 4px;
+    background-color: tomato;
+}
+.main{
+    text-align: center;
+    height: 100vh;
+}
+.main h2{
+    line-height: 100vh;
+
+}
